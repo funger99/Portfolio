@@ -1,0 +1,20 @@
+.contact-title {
+    text-align: center;
+    font-size: 4vw;
+}
+.form-container {
+    display: flex;
+    justify-content: space-around;
+}
+.form {
+    width: 70vw;
+    height: 70vh;
+    margin-bottom: 10vh;
+}
+.message {
+    
+    margin: 5vh 15vw 5vh 15vw;
+}
+.email {
+    color: black
+}

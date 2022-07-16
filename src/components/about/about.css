@@ -1,142 +1,136 @@
 .grid-container-a {
-    display: grid;
-    grid-template-columns: 1fr 2fr 2fr 1fr;
-    grid-template-rows: 1fr 4fr 1fr;
-    grid-gap: 2vw;
-    background-color: white;  
-    
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr 1fr;
+  grid-template-rows: 1fr 4fr 1fr;
+  grid-gap: 2vw;
+  background-color: white;
 }
 .grid-item-1a {
+  grid-row-start: 2;
+  grid-row-end: 3;
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+.grid-item-2a {
+  display: flex;
+  align-items: center;
+  position: relative;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  grid-column-start: 3;
+  grid-column-end: 4;
+  overflow-y: hidden;
+}
+.grid-item-3a {
+  grid-row-start: 3;
+  grid-row-end: 4;
+  grid-column-start: 3;
+  grid-column-end: 4;
+}
+
+.about-me-title {
+  font-size: 4vw;
+}
+
+.about-me-p {
+  font-size: 1.5vw;
+}
+
+.slide-img {
+  position: absolute;
+  top: 0;
+  width: 32vw;
+  height: auto;
+}
+
+.button-forward {
+  position: absolute;
+  right: 0;
+  font-size: 8vw;
+  color: white;
+  z-index: 2;
+  background: none;
+  border: none;
+}
+
+.button-prev {
+  left: 0;
+  font-size: 8vw;
+  color: white;
+  z-index: 2;
+  position: absolute;
+  background: none;
+  border: none;
+}
+
+.button-forward:hover {
+  color: black;
+  cursor: pointer;
+}
+.button-prev:hover {
+  color: black;
+  cursor: pointer;
+}
+.dots {
+  display: flex;
+  justify-content: space-between;
+  width: 80px;
+  height: 15px;
+  margin: auto;
+}
+.dot {
+  background-color: #bbb;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+}
+.dot:hover {
+  background-color: #ffd700;
+  cursor: pointer;
+}
+.active {
+  background-color: #ffd700;
+}
+
+@media only screen and (max-width: 767px) {
+  .grid-container-a {
+    grid-template-columns: 1fr 4fr 1fr;
+    grid-template-rows: 1fr 2fr 2fr 1fr;
+  }
+  .about-me-title {
+    font-size: 10vw;
+  }
+
+  .about-me-p {
+    font-size: 3vw;
+  }
+  .grid-item-1a {
     grid-row-start: 2;
     grid-row-end: 3;
     grid-column-start: 2;
     grid-column-end: 3;
-}
-.grid-item-2a {
-    display: flex;
+  }
+  .grid-item-2a {
     align-items: center;
-    position: relative; 
-    grid-row-start: 2;
-    grid-row-end: 3;
-    grid-column-start: 3;
-    grid-column-end: 4;
-    overflow-y: hidden;
-    
-}
-.grid-item-3a {
     grid-row-start: 3;
     grid-row-end: 4;
-    grid-column-start: 3;
-    grid-column-end: 4;
+    grid-column-start: 2;
+    grid-column-end: 3;
+  }
+  .grid-item-3a {
+    grid-row-start: 4;
+    grid-row-end: 5;
+    grid-column-start: 2;
+    grid-column-end: 3;
+  }
 
-}
-
-.about-me-title {
-    font-size: 4vw;
-}
-
-.about-me-p {
-    font-size:1.5vw;
-}
-
-.slide-img {
-    position: absolute;
-    top: 0;
-    width: 32vw;
-    height: auto; 
-}
-
-.button-forward {
-    position: absolute;
-    right: 0;
-    font-size: 8vw;
-    color: white;
-    z-index: 2;
-    position: absolute;
-    background: none;
-    border: none;  
-}
-
-.button-prev {
-    left: 0;
-    font-size: 8vw;
-    color: white;
-    z-index: 2;
-    position: absolute;
-    background: none;
-    border: none;
-}
-
-.button-forward:hover {
-    color: black;
-    cursor: pointer;
-}
-.button-prev:hover {
-    color: black;
-    cursor: pointer;
-}
-.dots {
-    display: flex;
-    justify-content: space-between;
-    width: 80px;
-    height: 15px;
-    margin: auto;
-}
-.dot {
-    background-color: #bbb;
-    width: 15px;
-    height: 15px;
-    border-radius: 50%;
-}
-.dot:hover {
-    background-color: #FFD700;
-    cursor: pointer;
-}
-.active{
-    background-color: #FFD700;
-}
-
-
-@media only screen and (max-width: 767px) {
-    .grid-container-a { 
-        grid-template-columns: 1fr 4fr 1fr;
-        grid-template-rows: 1fr 2fr 2fr 1fr;
-    }
-    .about-me-title {
-        font-size: 10vw;
-    }
-    
-    .about-me-p {
-        font-size: 3vw;
-    }
-    .grid-item-1a {
-        grid-row-start: 2;
-        grid-row-end: 3;
-        grid-column-start: 2;
-        grid-column-end: 3;
-    }
-    .grid-item-2a {
-        align-items: center;
-        grid-row-start: 3;
-        grid-row-end: 4;
-        grid-column-start: 2;
-        grid-column-end: 3;
-    }
-    .grid-item-3a {
-        grid-row-start: 4;
-        grid-row-end: 5;
-        grid-column-start: 2;
-        grid-column-end: 3;
-    
-    }
-
-    .slide-img {
-        width: 65vw; 
-    }
-    .button-forward {
-        font-size: 15vw; 
-    }
-    .button-prev {
-        font-size: 15vw; 
-    }
+  .slide-img {
+    width: 65vw;
+  }
+  .button-forward {
+    font-size: 15vw;
+  }
+  .button-prev {
+    font-size: 15vw;
+  }
 }
