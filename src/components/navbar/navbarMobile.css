@@ -1,0 +1,25 @@
+.nav-mobile {
+  position: fixed;
+  top: 8vh;
+  z-index: 3;
+  background-color: #093117;
+  width: 100vw;
+}
+.navlinks-mobile {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 0;
+}
+.navlinks-mobile > li {
+  padding-top: 3vh;
+  padding-bottom: 3vh;
+}
+.navlinks-mobile > li > a {
+  text-decoration: none;
+  color: white;
+  font-size: 4vw;
+}
+.navlinks-mobile > li > a:hover {
+  color: gold;
+}

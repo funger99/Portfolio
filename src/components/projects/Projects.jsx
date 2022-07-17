@@ -38,7 +38,7 @@ const Projects = () => {
         <div className="grid-item grid-item-3p">
           <img src={todo} alt="" className="project-img" />
           <p className="project-title">
-            <b>Task Organizer</b>
+            <b>Task Organizer App</b>
           </p>
           <a
             href="https://github.com/funger99/Task-Organizer"
@@ -83,6 +83,13 @@ const Projects = () => {
           <p className="project-title">
             <b>Cat Defender</b>
           </p>
+          <a
+            href="https://github.com/funger99/Cat-Defender"
+            target="_blank"
+            className="github"
+          >
+            <FaGithub size="2em" />
+          </a>
           <p className="project-tech">Python, Pygame</p>
           <p className="project-content">
             A 2D space shooter inspired game developed with the Pygame module.
