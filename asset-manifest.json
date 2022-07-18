@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.112bcba1.css",
-    "main.js": "/static/js/main.37d3817b.js",
-    "static/media/climb.png": "/static/media/climb.c586b1d88626df76fc24.png",
-    "static/media/flan.png": "/static/media/flan.1c1a04c25ce77140d1d1.png",
-    "static/media/neosper.png": "/static/media/neosper.5aa242c7dc1272bb1abb.png",
-    "static/media/runway.png": "/static/media/runway.731d4fd7e7748457c271.png",
-    "static/media/Resume.pdf": "/static/media/Resume.c1d96c79cac2ce9c8a20.pdf",
-    "static/media/safe.png": "/static/media/safe.200facd09ccd1d1e7d2b.png",
-    "static/media/website.png": "/static/media/website.dd7feda096d683f9074e.png",
-    "static/media/me.jpg": "/static/media/me.2241c771e11839a76d6d.jpg",
-    "static/media/soonmoo.png": "/static/media/soonmoo.8b0935b50681e622419c.png",
-    "static/media/todo.png": "/static/media/todo.f16f79dd449ba3312156.png",
-    "index.html": "/index.html",
-    "main.112bcba1.css.map": "/static/css/main.112bcba1.css.map",
-    "main.37d3817b.js.map": "/static/js/main.37d3817b.js.map"
+    "main.css": "/Portfolio/static/css/main.112bcba1.css",
+    "main.js": "/Portfolio/static/js/main.d6081c9b.js",
+    "static/media/climb.png": "/Portfolio/static/media/climb.c586b1d88626df76fc24.png",
+    "static/media/flan.png": "/Portfolio/static/media/flan.1c1a04c25ce77140d1d1.png",
+    "static/media/neosper.png": "/Portfolio/static/media/neosper.5aa242c7dc1272bb1abb.png",
+    "static/media/runway.png": "/Portfolio/static/media/runway.731d4fd7e7748457c271.png",
+    "static/media/Resume.pdf": "/Portfolio/static/media/Resume.c1d96c79cac2ce9c8a20.pdf",
+    "static/media/safe.png": "/Portfolio/static/media/safe.200facd09ccd1d1e7d2b.png",
+    "static/media/website.png": "/Portfolio/static/media/website.dd7feda096d683f9074e.png",
+    "static/media/me.jpg": "/Portfolio/static/media/me.2241c771e11839a76d6d.jpg",
+    "static/media/soonmoo.png": "/Portfolio/static/media/soonmoo.8b0935b50681e622419c.png",
+    "static/media/todo.png": "/Portfolio/static/media/todo.f16f79dd449ba3312156.png",
+    "index.html": "/Portfolio/index.html",
+    "main.112bcba1.css.map": "/Portfolio/static/css/main.112bcba1.css.map",
+    "main.d6081c9b.js.map": "/Portfolio/static/js/main.d6081c9b.js.map"
   },
   "entrypoints": [
     "static/css/main.112bcba1.css",
-    "static/js/main.37d3817b.js"
+    "static/js/main.d6081c9b.js"
   ]
 }
